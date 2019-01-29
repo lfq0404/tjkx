@@ -10,6 +10,8 @@ from twisted.enterprise import adbapi
 
 import pymongo
 
+import tjkx.output_word as word
+
 
 class TjkxPipeline(object):
     def process_item(self, item, spider):
@@ -35,12 +37,15 @@ class TjkxPipeline(object):
         self.db_client = pymongo.MongoClient(db_url)
         self.db = self.db_client[db_name]
 
+        self.db.drop_collection('tjkx')  # 每次先清表
+
     def close_spider(self, spider):
         """
         当spider被关闭时，这个方法被调用
         :return:
         """
         self.db_client.close()
+        word.OutputWord().get_file()
 
     def insert_db(self, item):
         """

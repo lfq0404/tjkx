@@ -1,5 +1,4 @@
 import scrapy
-import re
 
 from bs4 import BeautifulSoup
 from scrapy.http import Request
@@ -39,7 +38,6 @@ class BaseSpider(scrapy.Spider):
             public_date = control.str2date(i.find('i').text)  # 2019年01月28日 06:54 --> datetime.date(2019, 1, 28)
             if cons.MIN_DATE <= public_date <= cons.MAX_DATE:
                 print('下一级网址是：', url)
-                cons.REST_TIME
                 yield Request(url, callback=self.get_details)
 
     def get_details(self, response):
@@ -53,10 +51,11 @@ class BaseSpider(scrapy.Spider):
         title = title_info.text  # 标题
 
         public_time_obj = title_info.next_sibling.next_sibling
-        public_time = public_time_obj.find('span').text  # 发布时间
+        public_time = control.str2time(public_time_obj.find('span').text)  # 发布时间
 
         introduction_obj = public_time_obj.next_sibling.next_sibling
         introduction = control.del_blank_str(introduction_obj.find('span').next_sibling)  # 导读
+        introduction = control.deal_introduction(introduction)  #
 
         details = introduction_obj.next_sibling.next_sibling.find_all('p')
         details_text = []  # 整个详情页面的汇总
@@ -70,10 +69,10 @@ class BaseSpider(scrapy.Spider):
             text = info.text
             if not text:
                 text = info.find('img') and info.find('img')['src']
-                if cons.BASE_IMG_URL in text:
+                if text and cons.BASE_IMG_URL in text:
                     text = cons.PARTITION_SIGN
                 else:
-                    text = None
+                    text = ''
             text = control.del_blank_str(text)
 
             if text:
@@ -89,7 +88,7 @@ class BaseSpider(scrapy.Spider):
             if begin_record and not stop_record:
                 # 判断图片紧接着的是不是以数字开头的内容
                 if i == cons.PARTITION_SIGN:
-                    if not cons.STOP_RECORD_OBJ.match(details_text[index + 1]):
+                    if (index + 1 == len(details_text)) or (not cons.STOP_RECORD_OBJ.match(details_text[index + 1])):
                         stop_record = True
                 else:
                     details_result.append(i)

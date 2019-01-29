@@ -5,10 +5,12 @@ import random
 
 GET_MRBB_URL = lambda page_num: 'http://info.tjkx.com/list/201803-{}.htm'.format(page_num)  # 获取每日播报url
 
-REST_TIME = time.sleep(random.randint(2, 5))
-
 MIN_DATE = datetime.date(2019, 1, 21)  # 爬取的最小日期
 MAX_DATE = datetime.date(2019, 1, 25)  # 爬去的最大日期
+
+MIN_TIME = datetime.datetime.strptime(str(MIN_DATE) + ' 00:00:00', '%Y-%m-%d %H:%M:%S')
+MAX_TIME = datetime.datetime.strptime(str(MAX_DATE) + ' 23:59:59', '%Y-%m-%d %H:%M:%S')
+
 
 BASE_IMG_URL = 'http://a.tjkximg.com'  # 以图片作为基准的地址
 PARTITION_SIGN = '骚操作的分隔符'  # 分割标识，骚操作
