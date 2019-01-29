@@ -2,126 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44d41b0-7541-4a6a-a172-f5ba8af61e16" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/02/0292081364903d08cab5fa62db880e2985fe2ad7/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/02/0292081364903d08cab5fa62db880e2985fe2ad7/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/02/0292081364903d08cab5fa62db880e2985fe2ad7/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/06/06f2cd32e773f1c79e345b08e50bcbb752f6b83b/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/06/06f2cd32e773f1c79e345b08e50bcbb752f6b83b/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/06/06f2cd32e773f1c79e345b08e50bcbb752f6b83b/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/0d/0df454555af4712fdf35d7265d03b4ca8ed7735d/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/0d/0df454555af4712fdf35d7265d03b4ca8ed7735d/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/0d/0df454555af4712fdf35d7265d03b4ca8ed7735d/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/1f/1ffe2b617d040ade1ce81c3839d9e5cfcddb666e/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/1f/1ffe2b617d040ade1ce81c3839d9e5cfcddb666e/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/1f/1ffe2b617d040ade1ce81c3839d9e5cfcddb666e/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/46/4646a7a76cd61288cdd565a67e1892d955e75ecc/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/46/4646a7a76cd61288cdd565a67e1892d955e75ecc/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/46/4646a7a76cd61288cdd565a67e1892d955e75ecc/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/57/5786e2de6850c456368f546def71c8dad03acd45/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/57/5786e2de6850c456368f546def71c8dad03acd45/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/64/64e7ba5c5c79abc8879e196f2f37a6aef504339f/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/64/64e7ba5c5c79abc8879e196f2f37a6aef504339f/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/64/64e7ba5c5c79abc8879e196f2f37a6aef504339f/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/76/76c5121ece9a35a70c37b07b87810389bf1abda4/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/76/76c5121ece9a35a70c37b07b87810389bf1abda4/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b3/b3611a31cfd67bb283dbdd29f995c7a00395a39d/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b3/b3611a31cfd67bb283dbdd29f995c7a00395a39d/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b3/b3611a31cfd67bb283dbdd29f995c7a00395a39d/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b9/b9652049bffc9d15dd1275e65c30264ac35a38fc/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b9/b9652049bffc9d15dd1275e65c30264ac35a38fc/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b9/b9652049bffc9d15dd1275e65c30264ac35a38fc/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bb/bb89bd716f3c56ce09065718a1c9ead19f3a6f02/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bb/bb89bd716f3c56ce09065718a1c9ead19f3a6f02/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bb/bb89bd716f3c56ce09065718a1c9ead19f3a6f02/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bf/bf446b1afe96af4da306e9b96bbe2b0ea9a1b4b7/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bf/bf446b1afe96af4da306e9b96bbe2b0ea9a1b4b7/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bf/bf446b1afe96af4da306e9b96bbe2b0ea9a1b4b7/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c1/c1533c0331f6bcdd68d4c6c21dfca8d9a0f88dad/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c1/c1533c0331f6bcdd68d4c6c21dfca8d9a0f88dad/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c1/c1533c0331f6bcdd68d4c6c21dfca8d9a0f88dad/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c9/c96b69abfb251f4f0bdda51542dddc9e81df631e/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c9/c96b69abfb251f4f0bdda51542dddc9e81df631e/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c9/c96b69abfb251f4f0bdda51542dddc9e81df631e/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cb/cb1caf5214b0a4aac2bf98d972fd6be46bbc3285/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cb/cb1caf5214b0a4aac2bf98d972fd6be46bbc3285/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cb/cb1caf5214b0a4aac2bf98d972fd6be46bbc3285/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cd/cdb914b2175899497473dd300eb830b2c6502360/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cd/cdb914b2175899497473dd300eb830b2c6502360/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cd/cdb914b2175899497473dd300eb830b2c6502360/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/ce/ce1c163fc9e9ac4458230e5e66378120dcfa561f/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/ce/ce1c163fc9e9ac4458230e5e66378120dcfa561f/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/ce/ce1c163fc9e9ac4458230e5e66378120dcfa561f/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/dc/dca558126edfbcb2ec936ac9d94b416028e77470/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/dc/dca558126edfbcb2ec936ac9d94b416028e77470/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/dc/dca558126edfbcb2ec936ac9d94b416028e77470/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/f1/f1eb37c46220947aa2638daf5ddaacff2a272af9/pickled_meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/f1/f1eb37c46220947aa2638daf5ddaacff2a272af9/request_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/f1/f1eb37c46220947aa2638daf5ddaacff2a272af9/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/02/0292081364903d08cab5fa62db880e2985fe2ad7/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/02/0292081364903d08cab5fa62db880e2985fe2ad7/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/02/0292081364903d08cab5fa62db880e2985fe2ad7/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/06/06f2cd32e773f1c79e345b08e50bcbb752f6b83b/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/06/06f2cd32e773f1c79e345b08e50bcbb752f6b83b/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/06/06f2cd32e773f1c79e345b08e50bcbb752f6b83b/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/0d/0df454555af4712fdf35d7265d03b4ca8ed7735d/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/0d/0df454555af4712fdf35d7265d03b4ca8ed7735d/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/0d/0df454555af4712fdf35d7265d03b4ca8ed7735d/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/1f/1ffe2b617d040ade1ce81c3839d9e5cfcddb666e/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/1f/1ffe2b617d040ade1ce81c3839d9e5cfcddb666e/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/1f/1ffe2b617d040ade1ce81c3839d9e5cfcddb666e/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/46/4646a7a76cd61288cdd565a67e1892d955e75ecc/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/46/4646a7a76cd61288cdd565a67e1892d955e75ecc/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/46/4646a7a76cd61288cdd565a67e1892d955e75ecc/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/57/5786e2de6850c456368f546def71c8dad03acd45/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/57/5786e2de6850c456368f546def71c8dad03acd45/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/57/5786e2de6850c456368f546def71c8dad03acd45/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/57/5786e2de6850c456368f546def71c8dad03acd45/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/64/64e7ba5c5c79abc8879e196f2f37a6aef504339f/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/64/64e7ba5c5c79abc8879e196f2f37a6aef504339f/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/64/64e7ba5c5c79abc8879e196f2f37a6aef504339f/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/76/76c5121ece9a35a70c37b07b87810389bf1abda4/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/76/76c5121ece9a35a70c37b07b87810389bf1abda4/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/76/76c5121ece9a35a70c37b07b87810389bf1abda4/response_body" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/76/76c5121ece9a35a70c37b07b87810389bf1abda4/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b3/b3611a31cfd67bb283dbdd29f995c7a00395a39d/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b3/b3611a31cfd67bb283dbdd29f995c7a00395a39d/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b3/b3611a31cfd67bb283dbdd29f995c7a00395a39d/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b9/b9652049bffc9d15dd1275e65c30264ac35a38fc/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b9/b9652049bffc9d15dd1275e65c30264ac35a38fc/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/b9/b9652049bffc9d15dd1275e65c30264ac35a38fc/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bb/bb89bd716f3c56ce09065718a1c9ead19f3a6f02/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bb/bb89bd716f3c56ce09065718a1c9ead19f3a6f02/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bb/bb89bd716f3c56ce09065718a1c9ead19f3a6f02/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bf/bf446b1afe96af4da306e9b96bbe2b0ea9a1b4b7/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bf/bf446b1afe96af4da306e9b96bbe2b0ea9a1b4b7/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/bf/bf446b1afe96af4da306e9b96bbe2b0ea9a1b4b7/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c1/c1533c0331f6bcdd68d4c6c21dfca8d9a0f88dad/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c1/c1533c0331f6bcdd68d4c6c21dfca8d9a0f88dad/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c1/c1533c0331f6bcdd68d4c6c21dfca8d9a0f88dad/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c9/c96b69abfb251f4f0bdda51542dddc9e81df631e/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c9/c96b69abfb251f4f0bdda51542dddc9e81df631e/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/c9/c96b69abfb251f4f0bdda51542dddc9e81df631e/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cb/cb1caf5214b0a4aac2bf98d972fd6be46bbc3285/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cb/cb1caf5214b0a4aac2bf98d972fd6be46bbc3285/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cb/cb1caf5214b0a4aac2bf98d972fd6be46bbc3285/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cd/cdb914b2175899497473dd300eb830b2c6502360/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cd/cdb914b2175899497473dd300eb830b2c6502360/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/cd/cdb914b2175899497473dd300eb830b2c6502360/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/ce/ce1c163fc9e9ac4458230e5e66378120dcfa561f/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/ce/ce1c163fc9e9ac4458230e5e66378120dcfa561f/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/ce/ce1c163fc9e9ac4458230e5e66378120dcfa561f/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/dc/dca558126edfbcb2ec936ac9d94b416028e77470/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/dc/dca558126edfbcb2ec936ac9d94b416028e77470/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/dc/dca558126edfbcb2ec936ac9d94b416028e77470/response_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/f1/f1eb37c46220947aa2638daf5ddaacff2a272af9/meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/f1/f1eb37c46220947aa2638daf5ddaacff2a272af9/request_headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.scrapy/httpcache/tjkx/f1/f1eb37c46220947aa2638daf5ddaacff2a272af9/response_headers" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tjkx/items.py" afterPath="$PROJECT_DIR$/tjkx/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tjkx/pipelines.py" afterPath="$PROJECT_DIR$/tjkx/pipelines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tjkx/settings.py" afterPath="$PROJECT_DIR$/tjkx/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tjkx/spiders/constants.py" afterPath="$PROJECT_DIR$/tjkx/spiders/constants.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tjkx/spiders/control.py" afterPath="$PROJECT_DIR$/tjkx/spiders/control.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tjkx/spiders/tjkx.py" afterPath="$PROJECT_DIR$/tjkx/spiders/tjkx.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -146,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tjkx/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+            <state relative-caret-position="325">
+              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tjkx.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tjkx.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tjkx/spiders/tjkx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            <state relative-caret-position="304">
+              <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -251,10 +132,10 @@
         <option value="$PROJECT_DIR$/tjkx/spiders/details_control.py" />
         <option value="$PROJECT_DIR$/tjkx/spiders/control.py" />
         <option value="$PROJECT_DIR$/tjkx/items.py" />
-        <option value="$PROJECT_DIR$/tjkx/settings.py" />
         <option value="$PROJECT_DIR$/tjkx/pipelines.py" />
         <option value="$PROJECT_DIR$/tjkx/spiders/constants.py" />
         <option value="$PROJECT_DIR$/tjkx/spiders/tjkx.py" />
+        <option value="$PROJECT_DIR$/tjkx/settings.py" />
       </list>
     </option>
   </component>
@@ -314,6 +195,17 @@
             <path>
               <item name="tjkx" type="b2602c69:ProjectViewProjectNode" />
               <item name="tjkx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tjkx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tjkx" type="462c0819:PsiDirectoryNode" />
+              <item name=".scrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tjkx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tjkx" type="462c0819:PsiDirectoryNode" />
+              <item name=".scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="httpcache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tjkx" type="b2602c69:ProjectViewProjectNode" />
@@ -425,13 +317,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.4980822" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32689834" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32689834" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12493151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3989704" sideWeight="0.4980822" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989704" sideWeight="0.4980822" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -650,14 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/begin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/env/spider/lib/python3.5/site-packages/scrapy/spiderloader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -710,14 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tjkx/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tjkx/spiders/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -730,11 +606,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tjkx/spiders/tjkx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="304">
+          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/begin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tjkx/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
