@@ -29,11 +29,4 @@ def del_blank_str(msg):
     return msg
 
 
-class BaseDetails:
-    def __init__(self):
-        self.details_list = []  # 详细信息列表，最终返回时需要以换行符分割
-
-    def add_details(self, new_msg):
-        self.details_list.append(new_msg)
-
 

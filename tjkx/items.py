@@ -14,7 +14,8 @@ class TjkxItem(scrapy.Item):
     title = scrapy.Field()  # 标题
     public_time = scrapy.Field()  # 发布时间
     introduction = scrapy.Field()  # 导读
-    wbtt = scrapy.Field()  # 晚报头条
+    details = scrapy.Field()  # 详情页面的详情部分
+    kxtt = scrapy.Field()  # 快讯头条
     tjkx = scrapy.Field()  # 糖酒快讯
     qydt = scrapy.Field()  # 企业动态
     hydt = scrapy.Field()  # 行业动态

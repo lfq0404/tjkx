@@ -33,12 +33,14 @@ class BaseSpider(scrapy.Spider):
         text = response.text
         infos = BeautifulSoup(text, 'lxml').find('div', class_='bj-contents mar37').find_all('li')
         for i in infos:
+            if not i.find('a'):
+                continue
             url = i.find('a')['href']  # 下一级网址
             public_date = control.str2date(i.find('i').text)  # 2019年01月28日 06:54 --> datetime.date(2019, 1, 28)
             if cons.MIN_DATE <= public_date <= cons.MAX_DATE:
+                print('下一级网址是：', url)
+                cons.REST_TIME
                 yield Request(url, callback=self.get_details)
-            else:
-                break
 
     def get_details(self, response):
         """
@@ -57,29 +59,53 @@ class BaseSpider(scrapy.Spider):
         introduction = control.del_blank_str(introduction_obj.find('span').next_sibling)  # 导读
 
         details = introduction_obj.next_sibling.next_sibling.find_all('p')
-        img_index = 0  # http://a.tjkximg.com 第2--5个之后的是内容
-        wbtt = []  # 晚报头条
-        tjkx = []  # 糖酒快讯
-        qydt = []  # 企业动态
-        hydt = []  # 行业动态
+        details_text = []  # 整个详情页面的汇总
+        details_result = []  # 筛选后的详情信息(头条 + 快讯 + 企业动态 + 行业动态)
+        # kxtt = []  # 快讯头条
+        # tjkx = []  # 糖酒快讯
+        # qydt = []  # 企业动态
+        # hydt = []  # 行业动态
         for info in details:
-            # 以图片为基准点
-            img_info = info.find('img')
-            if img_info:
-                img_url = img_info['src']
-                if cons.BASE_IMG_URL in img_url:
-                    img_index += 1
-                    if cons.MIN_IMG_INDEX <= img_index <= cons.MAX_IMG_INDEX:  # 获取第2张到第5张图片之间的信息
-                        details_obj = control.BaseDetails()
-                    else:
-                        continue
+            # 获取文本信息 + 图片信息（作为分割）
+            text = info.text
+            if not text:
+                text = info.find('img') and info.find('img')['src']
+                if cons.BASE_IMG_URL in text:
+                    text = cons.PARTITION_SIGN
                 else:
-                    continue
+                    text = None
+            text = control.del_blank_str(text)
 
+            if text:
+                if text not in cons.NEED_DELETE_MSGS:
+                    details_text.append(text)
 
+        # 提取对应的信息，目前不需要分类，直接把整个页面的数据返回
+        # 分隔符后不是以'数字.'形式开头的进行剔除
+        begin_record = False
+        stop_record = False
+        for index, i in enumerate(details_text):
+            # 如果运行进行记录（以1.开始，并且图片紧接着的不是以数字开头的值）
+            if begin_record and not stop_record:
+                # 判断图片紧接着的是不是以数字开头的内容
+                if i == cons.PARTITION_SIGN:
+                    if not cons.STOP_RECORD_OBJ.match(details_text[index + 1]):
+                        stop_record = True
+                else:
+                    details_result.append(i)
+            # 以1.开头的才运行开始进行记录
+            else:
+                if cons.BEGIN_RECORD_OBJ.match(i):
+                    begin_record = True
+                    details_result.append(i)
 
+        # 保存数据
+        item = TjkxItem()
+        item['title'] = title
+        item['public_time'] = public_time
+        item['introduction'] = introduction
+        item['details'] = details_result
 
+        print('已经保存完成', response)
 
-
-
-
+        return item
