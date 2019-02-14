@@ -1,8 +1,6 @@
 import re
 import datetime
 
-import tjkx.spiders.constants as cons
-
 
 def str2date(str_date):
     """

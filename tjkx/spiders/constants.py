@@ -3,10 +3,12 @@ import re
 import time
 import random
 
+import tjkx.spiders.control as con
+
 GET_MRBB_URL = lambda page_num: 'http://info.tjkx.com/list/201803-{}.htm'.format(page_num)  # 获取每日播报url
 
-MIN_DATE = datetime.date(2019, 1, 21)  # 爬取的最小日期
-MAX_DATE = datetime.date(2019, 1, 25)  # 爬去的最大日期
+MIN_DATE = con.str2date(input('开始日期（年-月-日）：'))  # 爬取的最小日期
+MAX_DATE = con.str2date(input('开始日期（年-月-日）：'))  # 爬去的最大日期
 
 MIN_TIME = datetime.datetime.strptime(str(MIN_DATE) + ' 00:00:00', '%Y-%m-%d %H:%M:%S')
 MAX_TIME = datetime.datetime.strptime(str(MAX_DATE) + ' 23:59:59', '%Y-%m-%d %H:%M:%S')
