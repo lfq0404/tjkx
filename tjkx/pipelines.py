@@ -46,6 +46,7 @@ class TjkxPipeline(object):
         """
         self.db_client.close()
         word.OutputWord().get_file()
+        print('#################成功完成#######################')
 
     def insert_db(self, item):
         """

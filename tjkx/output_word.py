@@ -28,7 +28,7 @@ class OutputWord:
             # 保存导读
             self.introductions.append(i['introduction'])
             # 保存详情
-            self.detail_infos.append(i['details'])
+            self.detail_infos.extend(i['details'])
 
         self._write_word()
 
@@ -70,7 +70,7 @@ class OutputWord:
             # 以分号分隔每一天的导读内容
             intro_temp = introduction.split('；')  # ['四川省人大提案：建立三支酒类发展基金', '“梦之蓝经典咏流传百家姓礼盒”1月22日上线']
             for intro in intro_temp:
-                control.del_src_number(intro)
+                intro = control.del_src_number(intro)
                 if intro:
                     run = document.add_paragraph('', style='ListNumber').add_run(intro)
                     run.font.name = '微软雅黑'
@@ -82,6 +82,22 @@ class OutputWord:
         run._element.rPr.rFonts.set(qn('w:eastAsia'), u'微软雅黑')
 
         # 动态内容（有序列表）
+        # 以　数字.　作为分隔，列表的每一个元素都需要换行
+        index = 1
+        for msg in self.detail_infos:
+            # 如果以数字编号开头，则新起一段
+            if cons.STOP_RECORD_OBJ.match(msg):
+                msg = str(index) + '. ' + control.del_src_number(msg)
+                index += 1
+                run = document.add_heading(u'', level=2).add_run(msg)
+                run.font.name = '微软雅黑'
+                run._element.rPr.rFonts.set(qn('w:eastAsia'), u'微软雅黑')
+
+            # 否则，接续之前的，并换行
+            else:
+                run = document.add_paragraph('').add_run(msg + '\r\n')
+                run.font.name = '微软雅黑'
+                run._element.rPr.rFonts.set(qn('w:eastAsia'), u'微软雅黑')
 
         # 保存文档
         document.save('./temp.docx')

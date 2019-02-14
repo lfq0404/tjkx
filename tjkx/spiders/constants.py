@@ -24,4 +24,4 @@ QYDT_INDEX = 4  # 企业动态
 HYDT_INDEX = 5  # 行业动态
 
 BEGIN_RECORD_OBJ = re.compile('^1\.')  # 开始记录的标识
-STOP_RECORD_OBJ = re.compile('^\d+\.')  # 结束记录的标识
+STOP_RECORD_OBJ = re.compile('^\d+\.')  # 匹配以数字开头编号的文本，可作为结束记录的标识

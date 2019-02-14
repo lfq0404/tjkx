@@ -60,8 +60,9 @@ def deal_introduction(msg):
     :param msg:
     :return:
     """
-    obj = re.compile('#.*?#(.*?)\.{6}')
-    msg = obj.findall(msg)[0]
+    obj = re.compile('#.*?#(.*?)(\.{6}|…)')
+    if obj.findall(msg):
+        msg = obj.findall(msg)[0][0]
 
     return msg
 

@@ -35,7 +35,11 @@ class BaseSpider(scrapy.Spider):
             if not i.find('a'):
                 continue
             url = i.find('a')['href']  # 下一级网址
-            public_date = control.str2date(i.find('i').text)  # 2019年01月28日 06:54 --> datetime.date(2019, 1, 28)
+            if i.find('i'):
+                public_date = control.str2date(i.find('i').text)  # 2019年01月28日 06:54 --> datetime.date(2019, 1, 28)
+            else:
+                print('找不到网址：', i)
+                continue
             if cons.MIN_DATE <= public_date <= cons.MAX_DATE:
                 print('下一级网址是：', url)
                 yield Request(url, callback=self.get_details)
