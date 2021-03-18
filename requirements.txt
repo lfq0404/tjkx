@@ -26,7 +26,7 @@ pandas==0.23.4
 parsel==1.5.0
 pefile==2018.8.8
 phonenumbers==8.9.16
-Pillow==5.4.1
+Pillow==8.1.1
 pyasn1==0.4.3
 pyasn1-modules==0.2.2
 pycparser==2.18
